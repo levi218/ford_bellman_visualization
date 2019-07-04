@@ -65,8 +65,14 @@ public class Controller {
             }
             else if(i > 3){
                 Vertex s = new Vertex(sLine.charAt(0));
-                Vertex e = new Vertex(sLine.charAt(1));                
-                graph.addEdge(s, e, sLine.charAt(2));
+                Vertex e = new Vertex(sLine.charAt(1));
+                String c = "";
+                
+                for(int j = 2; j < sLine.length(); j++){
+                    c += sLine.charAt(j);
+                }
+                //int capacity = Integer.parseInt(c);
+                graph.addEdge(s, e, Integer.parseInt(c));
             }
 	}
         br.close();
