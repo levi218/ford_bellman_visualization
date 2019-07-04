@@ -2,12 +2,20 @@ package com.group7304.fordfulkerson.model;
 import java.util.ArrayList;
 
 public class Vertex {
-    char name;
+    private char name;
     Edge cameFrom;
     ArrayList<Vertex> neighbours;
     boolean visited;
+    
+    public char getName() {
+        return name;
+    }
 
-    Vertex(char name) {
+    public void setName(char name) {
+        this.name = name;
+    }    
+
+    public Vertex(char name) {
         this.name = name;
         neighbours = new ArrayList();
         visited = false;
