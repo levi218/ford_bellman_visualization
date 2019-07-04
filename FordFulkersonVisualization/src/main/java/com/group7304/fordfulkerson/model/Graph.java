@@ -2,19 +2,35 @@ package com.group7304.fordfulkerson.model;
 import java.util.ArrayList;
 
 public class Graph {
-    ArrayList<Edge> edges;
-    ArrayList<Vertex> vrtx;
+    private ArrayList<Edge> edges;
+    private ArrayList<Vertex> vrtx;
 
-    Graph() {
+    public Graph() {
         edges = new ArrayList();
         vrtx = new ArrayList();
     }
 
-    void addEdge(Vertex start, Vertex end, int capacity){
+    public ArrayList<Edge> getEdges() {
+        return edges;
+    }
+
+    public void setEdges(ArrayList<Edge> edges) {
+        this.edges = edges;
+    }
+
+    public ArrayList<Vertex> getVrtx() {
+        return vrtx;
+    }
+
+    public void setVrtx(ArrayList<Vertex> vrtx) {
+        this.vrtx = vrtx;
+    }
+
+    public void addEdge(Vertex start, Vertex end, int capacity){
         edges.add(new Edge(start, end, capacity));
     }
 
-    void addVertex(char newVertex){
+    public void addVertex(char newVertex){
         vrtx.add(new Vertex(newVertex));
     }
 }
