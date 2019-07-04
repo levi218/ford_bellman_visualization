@@ -1,0 +1,11 @@
+Vertexs: 6
+sABCDt
+Edges: 8
+sA10
+sB10
+AB8
+AC8
+At5
+Ct5
+BD10
+Dt10

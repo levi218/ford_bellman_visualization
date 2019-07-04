@@ -1,0 +1,9 @@
+Vertexs: 4
+ABCD
+Edges: 6
+AB1
+AC1
+BC1
+CB1
+BD1
+CD1
