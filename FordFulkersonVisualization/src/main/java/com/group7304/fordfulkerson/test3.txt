@@ -1,4 +1,4 @@
-Vertexs: 6
+Vertexes: 6
 sABCDt
 Edges: 8
 sA10

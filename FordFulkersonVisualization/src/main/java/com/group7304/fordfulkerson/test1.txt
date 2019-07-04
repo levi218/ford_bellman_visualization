@@ -1,4 +1,4 @@
-Vertexs: 4
+Vertexes: 4
 ABCD
 Edges: 6
 AB1

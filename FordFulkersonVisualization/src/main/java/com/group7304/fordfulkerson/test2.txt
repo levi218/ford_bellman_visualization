@@ -1,4 +1,4 @@
-Vertexs: 6
+Vertexes: 6
 ABCDEF
 Edges: 8
 AB8
